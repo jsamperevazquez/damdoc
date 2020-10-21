@@ -1,8 +1,6 @@
 # Programación Orientada a Objetos
 
-Es un paradigma de programación que utiliza objetos en sus interacciones, para diseñar aplicaciones y programas informáticos. Este paradigma es cercano a como expresamos las cosas en la vida real.
-
-**Objeto:** es un ente que consta de un estado y de un comportamiento.
+Es un paradigma de programación que utiliza [objetos](Objeto.md) en sus interacciones, para diseñar aplicaciones y programas informáticos. Este paradigma es cercano a como expresamos las cosas en la vida real.
 
 <!-- TODO -->
 **Principio de ocultación:**
@@ -28,7 +26,8 @@ Cuando hacemos un programa en Java, este debe tener al menos una clase principal
 Ejemplo de clase
 ```java
 public class ClassName {
-	// atributos -> variables
-	// comportamiento -> métodos
+	// atributos		->	variables
+	// comportamiento	->	métodos
 }
 ```
+

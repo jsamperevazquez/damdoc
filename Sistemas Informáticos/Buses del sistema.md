@@ -32,3 +32,17 @@ El USB se divide en:
 | 2017 | SuperSpeed+ | SS+ | 20 Gbit/s (2.5 GB/s) | 3.2 |
 
 El estándar USB 1.x y 2.0 proporciona 5V de alimentación y una conexión para los dispositivos conectados. La unidad de carga se definión con 100 mA, pudiendo consumir un solo dispositivo 5 (500mA) unidades de carga, y 150mA USB 3.0, llegando a poder utilizar 6 unidades de carga. 
+
+<br>
+
+### Firewire
+Es un estándar multiplataforma para entrada y salida de datos en serie a gran velocidad. Se utiliza para interconexión de dispositivos digitales como cámaras digitales y videocámaras.
+
+| Nombre | Versión | Tasa de transferencia |
+|--------|---------|-----------------------|
+| 400 | IEEE 1394-1995 | 400 Mbit/s (50 MB/s) |
+| 800 | IEEE 1394b-2002 | 800 Mbit/s (100 MB/s) |
+| S800T | IEEE 1394c-2006 | 800 Mbit/s (100 MB/s) |
+| s1600 | IEEE 1394-2008 | 1.6 Gbit/s (200 MB/s) |
+| s3200 | IEEE 1394-2008 | 3.2 Gbit/s (400 MB/s) |
+

@@ -1,6 +1,6 @@
 # Operadores
 <div style="text-align: justify;">
-Los operadores permiten llevar a cabo operaciones sobre uno, dos o tres datos u operandos de tipo primitivo, devolviendo también un valor de tipo primitivo.
+Los operadores permiten llevar a cabo operaciones sobre uno, dos o tres datos u operandos de [tipo primitivo](Tipo&#32;de&#32;datos.md), devolviendo también un valor de tipo primitivo.
 </div>
 
 <br>

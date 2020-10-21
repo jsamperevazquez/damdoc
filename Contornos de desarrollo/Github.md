@@ -10,7 +10,7 @@
 
 ```bash
 git config --global user.name "Nombre"
-git config --global user.mail ejemplo@mail.ru
+git config --global user.email ejemplo@mail.ru
 ```
 [Git - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) [Git - git-config](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
