@@ -4,7 +4,7 @@ Es un método estandarizado de resolución de algoritmos basados en el teorema d
 ## Estructuras de control
 
 ### Secuencial
-Se compone de una serie de procesos que se ejecutan uno a continuación de otro sin omitir ninguno y sin omitir ni bifurcar.
+Se compone de una serie de procesos que se ejecutan uno a continuación de otro sin repetir ninguno y sin omitir ni bifurcar.
 
 ### Condicional
 Permite elegir que ejecutar según una o varias condiciones. Hay varios tipos.
