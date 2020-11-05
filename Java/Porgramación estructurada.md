@@ -74,6 +74,7 @@ switch (condition) {
 }
 ```
 
+
 ### Repetitiva
 Permite repetir una o un grupo de sentencias varias veces. Este conjunto de sentencias se denomina bucle. Hay varios tipos de bucle:
 
