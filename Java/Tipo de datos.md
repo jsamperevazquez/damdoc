@@ -1,8 +1,6 @@
 # Tipo de datos
 ## Primitivos
-<div style="text-align: justify;">
 Podríamos considerarlos fundamentales, ya que la mayor parte de los demás tipos, los estructurados o complejos, son composiciones a partir de estos más básicos.
-</div>
 
 <br>
 
@@ -29,9 +27,7 @@ Podríamos considerarlos fundamentales, ya que la mayor parte de los demás tipo
 <br>
 
 ## Estructurados
-<div style="text-align: justify;">
 Los tipos de datos estructurados o tipos compuestos son agrupaciones de otros tipos de datos.
-</div>
 
 <br>
 
@@ -41,14 +37,10 @@ Una cadena de caracteres es una secuencia de caracteres que está tratada como u
 <br>
 
 ### Vector
-<div style="text-align: justify;">
 Permite agrupar variables de un mismo tipo con un único nombre.
-</div>
 
 <br>
 
 ### Matriz
-<div style="text-align: justify;">
 Es el resultado de crear un vector utilizando como base otro vector.
-</div>
 
