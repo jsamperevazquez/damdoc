@@ -22,3 +22,6 @@ Métodos:
 + Constructores.
 + Acceso.
 + Sobreescritura (@override).
+
+## Abstracta
+No se instancia, pero si se declara y generalmente tiene algun metodo abstracto.
