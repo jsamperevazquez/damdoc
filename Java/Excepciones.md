@@ -55,3 +55,18 @@ if (denominador == 0) {
 	System.out.println(...);
 }
 ```
+
+## Definir excepciones
+Las excepciones predefinidas por Java cubren las situaciones de errores más habituales relacionadas con el propio lenguaje, pero cuando desenvolvemos aplicaciones se dan situaciones de error relacionadas con nuestro programa, por lo que hay que definir excepciones personalizadas.
+
+```java
+public class NuevaExcepcion extends Exception {
+	public NuevaExcepcion() {
+		super();
+	}
+	
+	public NuevaExcepcion(String mensaje) {
+		super(mensaje);
+	}
+}
+```
