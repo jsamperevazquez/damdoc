@@ -44,3 +44,35 @@ Permite agrupar variables de un mismo tipo con un único nombre.
 ### Matriz
 Es el resultado de crear un vector utilizando como base otro vector.
 
+<br>
+
+## Avanzados
+### Estructura de datos
+#### Arrays
++ Fáciles
++ Permite almacenar datos primitivos y estructurados.
++ Gestión de memoria estática
++ Solo permite datos del mismo tipo
+
+Es un conjunto primitivo del mismo tipo que ocupan posiciones consecutivas de memoria.
+
+##### Declaración
+```java
+tipo[] nombreArray;
+tipo nombreArray[];
+```
+
+#### Colecciones
++ Complejas
++ Permite almacenar datos estructurados
++ Gestión de memoria dinámica
+
+##### List
++ Admite repeticiones
+
+
+##### Set
++ No admite repeticiones
+
+##### Map
++ Almacena datos en parejas *key-value*
