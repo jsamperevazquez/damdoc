@@ -47,3 +47,12 @@ git push	[<nombre>][<branch>]				# Actualiza repositorio remoto
 
 [git-clone](https://git-scm.com/docs/git-clone) [git-log](https://git-scm.com/docs/git-log) [git-pull](https://git-scm.com/docs/git-pull) [git-push](https://git-scm.com/docs/git-push) 
 
+## SSH
+```bash
+# generar key
+ssh-keygen -t rsa
+
+# se añade a github desde la pagina
+# se comprueba y se autentica
+ssh git@github.com
+```
