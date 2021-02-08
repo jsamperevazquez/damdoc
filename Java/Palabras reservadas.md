@@ -1,7 +1,5 @@
 # Palabras reservadas
-<div style="text-align: justify;">
 Las palabras clave y literales, son palabras reservadas utilizadas por el lenguaje de programación y no pueden ser usadas como identificadores.
-</div>
 
 <br>
 

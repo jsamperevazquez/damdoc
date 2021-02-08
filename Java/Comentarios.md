@@ -1,7 +1,5 @@
 # Comentarios
-<div style="text-align: justify;">
 Existen tres formas de poner comentarios:
-</div>
 
 ```java
 // Comentario

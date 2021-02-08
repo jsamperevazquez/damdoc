@@ -1,14 +1,7 @@
 # Operadores
-<div style="text-align: justify;">
-Los operadores permiten llevar a cabo operaciones sobre uno, dos o tres datos u operandos de tipo primitivo, devolviendo también un valor de tipo primitivo.
-</div>
+Los operadores permiten llevar a cabo operaciones sobre uno, dos o tres datos u operandos de [tipo primitivo](Tipo&#32;de&#32;datos.md), devolviendo también un valor de tipo primitivo.
 
 <br>
-
-## Asignación
-<div style="text-align: justify;">
-
-</div>
 
 ## Aritmeticas
 + Suma `+`
@@ -33,4 +26,4 @@ Los operadores permiten llevar a cabo operaciones sobre uno, dos o tres datos u 
 | OR   |      \|\|      | Si una de las condiciones es verdadera, retorna `true`           |
 | NOT  |        !       | Niega la condición                                               |
 
-# TODO
+==TODO==
