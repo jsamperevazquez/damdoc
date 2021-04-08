@@ -9,7 +9,11 @@ public int suma(int n1, int n2)	{ /* codigo */ }	// devuelve int
 public void nada()				{ /* codigo */ }	// no devuelve
 ```
 
+<<<<<<< HEAD
 ## Abstractos
+=======
+## Abstracto
+>>>>>>> 17e28880f40ff50ccc22ba7e83c2e7c2a96a5ef7
 Es declarado pero no implemenetado.
 
 ```java

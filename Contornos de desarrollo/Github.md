@@ -4,9 +4,7 @@
 
 ### Configuración
 #### Nombre y correo
-<div style="text-align: justify;">
-	Para configurar el <span style="color: #A6E22E;">nombre</span> que se mostrará y el <span style="color: #A6E22E;">correo electronico</span> se usa:
-</div>
+Para configurar el nombre que se mostrará y el correo electronico se usa:
 
 ```bash
 git config --global user.name "Nombre"
@@ -17,9 +15,7 @@ git config --global user.email ejemplo@mail.ru
 <br>
 
 #### Contraseña
-<div style="text-align: justify;">
-	En determinadas acciones se requiere introducir una contraseña, para guardarla temporalmente al inicio de la sesión y así no tener que introducirla cada vez se puede usar:
-</div>
+En determinadas acciones se requiere introducir una contraseña, para guardarla temporalmente al inicio de la sesión y así no tener que introducirla cada vez se puede usar:
 
 ```bash
 git config --global credential.helper 'cache --timeout=36000'	# 1 hora
@@ -52,7 +48,35 @@ git push	[<nombre>][<branch>]				# Actualiza repositorio remoto
 # generar key
 ssh-keygen -t rsa
 
+<<<<<<< HEAD
 # se añade a github desde la pagina
 # se comprueba y se autentica
 ssh git@github.com
 ```
+=======
+# se inicia el agente ssh y se añade la key
+eval `ssh-agent -s`
+ssh-add .ssh/key_rsa
+
+# se añade a github desde la pagina
+
+# se comprueba y se autentica
+ssh git@github.com
+```
+
+## Issues
+### Cerrar
+Los Issues se pueden cerrar de dos formas:
++ Cerrando en los comentarios.
++ Mediante un commit, añadiendo al final o al principio una palabra clave y el id, ej: ```resolves #10804```
+
+Las palabras clave son:
+
+```
+close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved
+```
+
+## Proyecto
+### Kanban
+Puede automatizar las [issues](Contornos&#32;de&#32;desarrollo/Github.md#issues).
+>>>>>>> 17e28880f40ff50ccc22ba7e83c2e7c2a96a5ef7
