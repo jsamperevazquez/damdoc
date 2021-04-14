@@ -25,6 +25,21 @@ ALTER USER name QUOTA n u ON USERS;
 **n:** número de espacio
 **u:** unidad (m -> megas, etc)
 
+## Alteración
+### Cambiar contraseña
+```plsql
+ALTER USER name IDENTIFIED BY password;
+```
+
+### Bloqueo y desbloqueo
+```plsql
+-- bloqueo
+ALTER USER name ACCOUNT LOCK;
+
+-- desbloqueo
+ALTER USER name ACCOUNT LOCK;
+```
+
 ### Concatenación
 Estos comandos se pueden concatenar de la siguiente forma:
 ```plsql
