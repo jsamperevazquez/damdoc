@@ -28,3 +28,8 @@ No se instancia, pero si se declara y generalmente tiene algun metodo abstracto.
 
 ## Internas
 Son clases definidas dentro de otras y tienen acceso a los métodos y variables de la externa.
+
+### Tipos
+
+- Anidada
+- Anonima
