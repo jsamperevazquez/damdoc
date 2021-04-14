@@ -31,5 +31,5 @@ Son clases definidas dentro de otras y tienen acceso a los métodos y variables 
 
 ### Tipos
 
-- Anidada
-- Anonima
+- **Anidada**
+- **Anonima**: Se define en la misma linea donde se define el objeto y debe ser una subclase de otra clase o implementar una interfaz. Como es anonima solo se puede crear un objeto, no tiene constructor.
