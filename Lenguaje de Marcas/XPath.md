@@ -69,7 +69,7 @@ Define el conjunto de nodos relativos al nodo actual
 
 
 ### Localización
-Una ruta puede ser absoluta o relativa. Las rutas absolutas comienzan con `/`, las absolutas no.
+Una ruta puede ser absoluta o relativa. Las rutas absolutas comienzan con `/`, las relativas no.
 
 
 ### Operadores
