@@ -9,9 +9,7 @@ public int suma(int n1, int n2)	{ /* codigo */ }	// devuelve int
 public void nada()				{ /* codigo */ }	// no devuelve
 ```
 
-HEAD
-## Abstractos
-=======
+
 ## Abstracto
 Es declarado pero no implemenetado.
 

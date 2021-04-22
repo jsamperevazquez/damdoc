@@ -13,4 +13,3 @@ Conjunto de clases e interfaces (también otros paquetes) relacionadas entre si 
 
 ## Creacion
 Se utiliza la [palabra reservada](Palabras&#32;reservadas.md) package seguida del nombre.
->>>>>>> 17e28880f40ff50ccc22ba7e83c2e7c2a96a5ef7
