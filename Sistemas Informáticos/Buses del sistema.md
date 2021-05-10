@@ -33,8 +33,6 @@ El USB se divide en:
 
 El estándar USB 1.x y 2.0 proporciona 5V de alimentación y una conexión para los dispositivos conectados. La unidad de carga se definión con 100 mA, pudiendo consumir un solo dispositivo 5 (500mA) unidades de carga, y 150mA USB 3.0, llegando a poder utilizar 6 unidades de carga. 
 
-<br>
-
 ### Firewire
 Es un estándar multiplataforma para entrada y salida de datos en serie a gran velocidad. Se utiliza para interconexión de dispositivos digitales como cámaras digitales y videocámaras.
 

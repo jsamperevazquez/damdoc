@@ -1,9 +1,7 @@
 # Github
 
-## Comandos
-
-### Configuración
-#### Nombre y correo
+## Configuración
+### Nombre y correo
 Para configurar el nombre que se mostrará y el correo electronico se usa:
 
 ```bash
@@ -32,7 +30,28 @@ git config --global core.editor [directorio]
 
 <br>
 
-#### Comandos básicos
+## Acceso SSH
+```bash
+# generar key
+ssh-keygen -t rsa
+
+# se añade a github desde la pagina
+# se comprueba y se autentica
+ssh git@github.com
+```
+
+-  se inicia el agente ssh y se añade la key
+eval `ssh-agent -s`
+ssh-add .ssh/key_rsa
+
+- Se añade a github desde la pagina.
+
+- se comprueba y se autentica
+ssh git@github.com
+
+<br>
+
+## Comandos básicos
 
 ```bash
 git clone	[<opciones>][url]					# Clonar repositorio
@@ -43,40 +62,21 @@ git push	[<nombre>][<branch>]				# Actualiza repositorio remoto
 
 [git-clone](https://git-scm.com/docs/git-clone) [git-log](https://git-scm.com/docs/git-log) [git-pull](https://git-scm.com/docs/git-pull) [git-push](https://git-scm.com/docs/git-push) 
 
-## SSH
-```bash
-# generar key
-ssh-keygen -t rsa
-
-<<<<<<< HEAD
-# se añade a github desde la pagina
-# se comprueba y se autentica
-ssh git@github.com
-```
-=======
-# se inicia el agente ssh y se añade la key
-eval `ssh-agent -s`
-ssh-add .ssh/key_rsa
-
-# se añade a github desde la pagina
-
-# se comprueba y se autentica
-ssh git@github.com
-```
+<br>
 
 ## Issues
-### Cerrar
-Los Issues se pueden cerrar de dos formas:
-+ Cerrando en los comentarios.
-+ Mediante un commit, añadiendo al final o al principio una palabra clave y el id, ej: ```resolves #10804```
+### Cerrar desde commit
+Desde un commit podemos interactuar con una issue utilizando una palabra clave y el id de la issue, las palabras clave son:
 
-Las palabras clave son:
+- close
+- closes
+- closed
+- fix
+- fixes
+- fixed
+- resolve
+- resolves
+- resolved
 
-```
-close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved
-```
-
-## Proyecto
-### Kanban
-Puede automatizar las [issues](Contornos&#32;de&#32;desarrollo/Github.md#issues).
->>>>>>> 17e28880f40ff50ccc22ba7e83c2e7c2a96a5ef7
+#### Ejemplo
+`Arreglos closes #31`
